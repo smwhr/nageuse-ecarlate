@@ -1,0 +1,165 @@
+@font-face
+  {
+    font-family: "Essays 1743";
+    src: url("./Essays1743.eot?") format("eot"), url("./Essays1743.woff") format("woff"), url("./Essays1743.ttf") format("truetype");
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    background: white;
+    color: #222;
+}
+.byline{
+    color: #ddd;   
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Essays 1743", Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #BBB;
+}
+
+.header {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.byline{}
+
+/* Seems necessary to make iframes work on itch.io on mobile iOS :-( */
+.outerContainer {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(bakhuizen.jpg);
+}
+
+.container {
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 4em;
+    backdrop-filter: blur(8px);
+    background: rgba(255,237,185,0.6);
+}
+
+p {
+    font-size: 13pt;
+    color: #333;
+    line-height: 1.7em;
+    font-weight: lighter;
+}
+
+a {
+    font-weight: 700;
+    color: #0b2b5d;
+    font-family: sans-serif;
+    transition: color 0.6s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    transition: color 0.1s;
+}
+
+strong {
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.container .hide {
+    opacity: 0.0;
+}
+
+.container .invisible {
+    display: none;
+}
+
+.container * {
+    opacity: 1.0;
+    transition: opacity 1.0s;
+}
+
+p.choice {
+    text-align: left;
+    line-height: 1em;
+    margin: 0;
+}
+
+/* first choice */
+:not(.choice) + .choice {
+    padding-top: 0em; 
+}
+
+
+p.choice a {
+    display: block;
+    /*border: 1px solid;
+    border-radius: 5px;*/
+    padding: 1em 1em 1em 0em;
+    transition: color 0.1s, background-color 0.5s;
+    margin: 0;
+}
+
+/* Built in class if you want to write:
+     The End # CLASS: end
+*/
+.end {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.location{
+    background: #333;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    color: #ccc;
+    margin-left: -1.6em;
+}
+
+.didascalie{
+    text-align: right;
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.event{
+    text-align: center;
+    font-family: "Essays 1743", Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
