@@ -39,3 +39,4 @@ Code sous licence
 * Ink programming language : [Inkle](https://www.inklestudios.com/ink/)
 * Inky 
 * Background image : [A threemaster with the Amsterdam coat-of-arms, with other vessels, in a storm, Ludolf Bakhuizen](https://commons.wikimedia.org/wiki/File:Ludolf_Bakhuizen_-_A_threemaster_with_the_Amsterdam_coat-of-arms,_with_other_vessels,_in_a_storm.jpg)[(source)](https://www.christies.com/lot/lot-ludolf-backhuysen-emden-1630-1708-amsterdam-a-5063435/)
+* Partim500 organizer : [Feldo](https://feldo.itch.io/)
