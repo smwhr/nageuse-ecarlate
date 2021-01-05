@@ -26,6 +26,15 @@ php -S 0.0.0.0:8001 -t .
 python3 -m http.server 8001
 ```
 
+## Modifier
+Utilisez inky pour ouvrir le fichier `ecarlate.ink` et ses dépendances.
+
+### Architecture du ink
+* `ecarlate.ink` : hub général
+* `ecarlate/opensea.ink` : gestion des rencontres / combats / knowledge
+* `ecarlate/debarquer.ink` : gestion des ports / trésors
+* `ecarlate/functions.ink` : fonctions support d'affichage / knowledge
+
 ## Licence 
 Texte et gameplay :
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
