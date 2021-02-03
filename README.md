@@ -4,7 +4,7 @@ Embarquez à bord de la Nageuse Écarlate, fière navire portant pavillon pirate
 
 Combattez en pleine mer, collectez des indices et débarquez dans les ports pour subtiliser les trésors de l'Orient.
 
-Jeu réalisé en [ink](https://www.inklestudios.com/ink/) avec 492 mots pour la [Partim 500 2020](https://itch.io/jam/fr-partim-500-an-2020)  (Thème : débarquer)
+Jeu réalisé en [ink](https://www.inklestudios.com/ink/) avec ~492~ 494 mots pour la [Partim 500 2020](https://itch.io/jam/fr-partim-500-an-2020)  (Thème : débarquer)
 
 
 ## Jouer en ligne
@@ -25,6 +25,15 @@ php -S 0.0.0.0:8001 -t .
 ```
 python3 -m http.server 8001
 ```
+
+## Modifier
+Utilisez inky pour ouvrir le fichier `ecarlate.ink` et ses dépendances.
+
+### Architecture du ink
+* `ecarlate.ink` : hub général
+* `ecarlate/opensea.ink` : gestion des rencontres / combats / knowledge
+* `ecarlate/debarquer.ink` : gestion des ports / trésors
+* `ecarlate/functions.ink` : fonctions support d'affichage / knowledge
 
 ## Licence 
 Texte et gameplay :
